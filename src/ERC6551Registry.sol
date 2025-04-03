@@ -68,7 +68,7 @@ contract ERC6551Registry is IERC6551Registry {
             // ----
             // 0x55   ERC-1167 Constructor + Header  (20 bytes)
             // 0x69   implementation (address)       (20 bytes)
-            // 0x5D   ERC-1167 Footer                (15 bytes)
+            // 0x7D   ERC-1167 Footer                (15 bytes)
             // 0x8C   salt (uint256)                 (32 bytes)
             // 0xAC   chainId (uint256)              (32 bytes)
             // 0xCC   tokenContract (address)        (32 bytes)
